@@ -49,3 +49,15 @@ var busqueda6 = texto.includes("rso");
 console.log(busqueda6);
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++ Replace
+let busqueda7 = texto.replace("JS", "js");
+console.log(busqueda7);
+
+let busqueda8 = texto.slice(14, 22);
+console.log(busqueda8);
+
+let busqueda9 = texto.split(" ");
+console.log(busqueda9);
+
+//Remove blanks at the beginning and end
+let busqueda10 = texto.trim();
+console.log(busqueda10);
